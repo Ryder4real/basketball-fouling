@@ -47,5 +47,5 @@ plt.legend(handles=legend_elements, loc='lower right')
 
 # Save and show
 plt.tight_layout()
-plt.savefig("datasets/Norm_QQ_Plot_3.png", dpi=300)
+plt.savefig("plots/Norm_QQ_Plot_3.png", dpi=300)
 plt.show()

@@ -18,4 +18,4 @@ ax.set_xticklabels(range(0, 66, 5), rotation=0)  # Optional: no angle
 ax.set_title('Distribution of Length of Possessions', fontsize=16)
 
 # Save the figure
-plt.savefig('datasets/time_hist', dpi=300)
+plt.savefig('plots/time_hist', dpi=300)

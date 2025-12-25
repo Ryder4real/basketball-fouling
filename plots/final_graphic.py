@@ -84,5 +84,5 @@ ax.legend(handles=legend_patches, title='Decision with Higher Win %', loc='upper
 
 # Save high-quality image
 fig.tight_layout()
-fig.savefig("datasets/final_graphic.png", dpi=300, bbox_inches='tight')
+fig.savefig("plots/final_graphic.png", dpi=300, bbox_inches='tight')
 plt.show()
