@@ -4,7 +4,7 @@ from matplotlib.patches import Rectangle
 import matplotlib.patches as mpatches
 import pickle
 
-path = "/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/pickle/store_dic.p"
+path = "datasets/store_dict.p"
 with open(path, "rb") as f:
     store_dic = pickle.load(f)
 

@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pickle
 
-with open("datasets/dic_sec_counts.p", "rb") as f:
+with open("datasets/dict_sec_counts.p", "rb") as f:
         total_counts = pickle.load(f)
 df = pd.DataFrame(list(total_counts.items()), columns=['sec', 'count'])
 

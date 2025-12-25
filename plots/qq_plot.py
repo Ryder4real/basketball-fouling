@@ -6,7 +6,7 @@ from matplotlib.lines import Line2D
 import pickle
 
 # Make QQ Plot
-path = "/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/pickle/dic_sec_counts.p"
+path = "datasets/dict_sec_counts.p"
 with open(path, "rb") as f:
         total_counts = pickle.load(f)
 df_sec_counts = pd.DataFrame(list(total_counts.items()), columns=['sec', 'count'])
