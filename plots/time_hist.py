@@ -2,8 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pickle
 
-path = "/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/pickle/dic_sec_counts.p"
-with open(path, "rb") as f:
+with open("datasets/dic_sec_counts.p", "rb") as f:
         total_counts = pickle.load(f)
 df = pd.DataFrame(list(total_counts.items()), columns=['sec', 'count'])
 
@@ -19,4 +18,4 @@ ax.set_xticklabels(range(0, 66, 5), rotation=0)  # Optional: no angle
 ax.set_title('Distribution of Length of Possessions', fontsize=16)
 
 # Save the figure
-plt.savefig('/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/plots/time_hist', dpi=300)
+plt.savefig('datasets/time_hist', dpi=300)

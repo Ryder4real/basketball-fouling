@@ -30,9 +30,5 @@ for team, sec_counts in list_of_teams.items():
 total_counts = dict(dd_total_counts)
 
 # Save dictionary as pickle
-with open("/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/pickle/dic_sec_counts.p", "wb") as file_handle:
+with open("datasets/dict_sec_counts.p", "wb") as file_handle:
     pickle.dump(total_counts, file_handle)
-
-# Save as CSV file:
-df_sec_counts = pd.DataFrame(list(total_counts.items()), columns=['sec', 'count'])
-df_sec_counts.to_csv("/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/df_sec_counts.csv", index=False)

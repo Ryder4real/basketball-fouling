@@ -117,5 +117,5 @@ for j in range(1, 61):
       store_dic[tup]["better"] = "foul"
 
 # Save dictionary
-with open("/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/pickle/store_dic.p", "wb") as file_handle:
+with open("datasets/store_dict.p", "wb") as file_handle:
     pickle.dump(store_dic, file_handle)

@@ -18,7 +18,7 @@ def normal_param(df_sec_counts):
   return (norm_mean, norm_std_dev)
 
 def get_mean_std():
-    path = "/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/pickle/dic_sec_counts.p"
+    path = "datasets/dict_sec_counts.p"
     with open(path, "rb") as f:
         data = pickle.load(f)
     return normal_param(data)

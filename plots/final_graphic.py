@@ -84,5 +84,5 @@ ax.legend(handles=legend_patches, title='Decision with Higher Win %', loc='upper
 
 # Save high-quality image
 fig.tight_layout()
-fig.savefig("/Users/ryderfried/Documents/2024-2025/Courses/Spring/CS109/plots/final_graphic.png", dpi=300, bbox_inches='tight')
+fig.savefig("datasets/final_graphic.png", dpi=300, bbox_inches='tight')
 plt.show()
