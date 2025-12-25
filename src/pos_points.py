@@ -1,5 +1,5 @@
 import numpy as np
-from points_dist import res_per_pos
+from src.points_dist import res_per_pos
 def ft_result():
    ft = int(sum(np.random.binomial(1, 0.78, size=2)))
    return ft

@@ -1,5 +1,5 @@
-from pos_points import ft_result, one_pos_points
-from pos_time import one_pos_time
+from src.pos_points import ft_result, one_pos_points
+from src.pos_time import one_pos_time
 
 def off_pos(score_diff, time_left, decision):
   # time_left

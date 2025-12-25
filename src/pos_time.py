@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 
-from time_dist import get_mean_std
+from src.time_dist import get_mean_std
 mean, std_dev = get_mean_std()
 
 def one_pos_time(pos, score_diff, time_left, decision):

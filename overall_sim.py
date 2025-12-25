@@ -1,5 +1,5 @@
 import pickle
-from possessions import off_pos, def_pos
+from src.possessions import off_pos, def_pos
 
 n_sim = 20000
 store_dic = {}
